@@ -1,16 +1,16 @@
 {
-  "name": "katas",
+  "name": "theHungerGames",
   "version": "1.0.0",
-  "description": "A series of completed katas",
+  "description": "The Hunger Games Series of Katas",
   "main": "index.js",
   "scripts": {
-    "test": "mocha */*.spec.js"
+    "test": "mocha ./*.spec.js"
   },
   "type": "commonjs",
   "author": "Sami Gildart",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "chai": "4.2.0",
+    "mocha": "6.2.2"
   }
 }
