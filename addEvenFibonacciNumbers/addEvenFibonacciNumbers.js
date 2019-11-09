@@ -1,4 +1,6 @@
 const addEvenFibonacciNumbers = (max) => {
+  if (isNaN(+max)) throw new TypeError("You must enter a number");
+  
   let count = 0;
   let previousNumber = 1;
   let number = 1;
@@ -6,8 +8,8 @@ const addEvenFibonacciNumbers = (max) => {
 
   while (number <= max) {
     nextNumber = number + previousNumber;
-
     if (nextNumber > max) return count;
+
     previousNumber = number;
     number = nextNumber;
 

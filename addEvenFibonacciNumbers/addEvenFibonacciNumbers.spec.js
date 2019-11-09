@@ -20,5 +20,8 @@ describe('addEvenFibonacciNumbers', () => {
   it('returns 798 if passed 2000', () => {
     expect(addEvenFibonacciNumbers(2000)).to.equal(798);
   });
+  it('should throw an error if arguement is NaN', () => {
+    expect(() => addEvenFibonacciNumbers('string')).to.throw(TypeError, "You must enter a number");
+  });
 });
 
