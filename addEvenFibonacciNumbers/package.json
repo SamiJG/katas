@@ -1,0 +1,16 @@
+{
+  "name": "addEvenFibonacciNumbers",
+  "version": "1.0.0",
+  "description": "Add up all even numbers in the Fibonacci Series under a specified maximum",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./*.spec.js"
+  },
+  "type": "commonjs",
+  "author": "Sami Gildart",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.2.2"
+  }
+}
